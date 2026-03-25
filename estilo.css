@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+
+    background: url("../recursos/img/fundo.jpg");
+
+    background-size: 9500px;
+
+  /*  background-repeat: ;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: red;
+
+}
+
+img#persona{
+    
+    width: 700px;
+    height: 400px;
+
+   border-radius: 100px; 
+
+   /* border: 10px solid rgb(255, 255, 255); */
+
+
+    box-shadow: 30px 30px 0px rgba(0, 7, 129, .3);
+   /* object-fit: cover;*/
+
+}
+
+.titulos{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+h1{
+
+    font-size: 3em;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0px;
+
+}
+
+
+h2{
+
+
+font-size: 2rem;
+color: rgb(255, 217, 0);
+
+  font-family: "Chivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /**/
+  margin: 10px 10px 10px 10px;
+
+}
+
+figure{
+
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.butao{
+
+    background-color: rgb(216, 247, 255);
+    backdrop-filter: blur(90px); /* Slight blur for liquid effect */
+    font-size: 90px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    width: 1000px;
+    border-radius: 100px;
+    box-shadow: 20px 20px 0px rgba(0, 7, 129, .3);
+    transition: 0.3s;
+    border: 10px solid rgb(182, 193, 219);
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.685); /* Highlight layer */
+    opacity: 0.6;
+    z-index: -1; /* Place behind content */
+
+    
+     /*justify-content: center;
+    display: flex;
+    align-items: center; */
+   
+}
+
+.butao:hover{
+
+    font-size: 100px;
+    width: 1050px;
+    background-color: rgb(0, 136, 255);
+    color: rgb(255, 228, 177);
+    transform: scale(2);
+        border: 10px solid rgb(21, 107, 133);
+        opacity: 100%;
+    
+}
+
+.material-symbols-outlined {
+
+  margin: 100px;
+  color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.material-symbols-outlined {
+    
+    padding: 100px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#rodape{
+
+    display: flex;
+    
+
+}
+
+.icons{
+
+
+
+    /* margin: 100px; */
+    display: flex;
+    margin: 100px;
+    fill: rgb(151, 151, 151);
+
+}
+
+svg:hover{
+
+
+    fill: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 1ms;
+
+
+}
