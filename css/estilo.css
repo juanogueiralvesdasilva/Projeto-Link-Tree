@@ -9,7 +9,7 @@ body{
 
     background: url("../recursos/img/fundo.jpg");
 
-    background-size: 9500px;
+    background-size: 3000px;
 
   /*  background-repeat: ;*/
   display: flex;
@@ -163,3 +163,18 @@ svg:hover{
 
 
 }
+
+#modoEscuro{
+
+    position: absolute;
+    top: 90%;
+    right: 05px;
+
+}
+
+/*.modoEscuro{
+
+    background-color: black;
+    color: white;
+
+}*/
