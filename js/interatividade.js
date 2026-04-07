@@ -9,7 +9,7 @@ $(function(){
     var titulo = $(" h1");
     var subtitulo = $(" #subtitulos");
     var icones = $("svg");
-    var fundo = $(" body");
+    var fundo = $("body");
     var botao_modoEscuro = $("#modoEscuro");
 
     var modoEscuro = false
@@ -23,6 +23,8 @@ $(function(){
 
       botoes.css("background-color","black");
       botoes.css("color","white");
+//a linha de baixo muda o fundão kawaii cute cute
+      fundo.css("background-image","url('../recursos/img/invertedo.png')");
 
       modoEscuro = true;
 
